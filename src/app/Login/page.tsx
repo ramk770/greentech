@@ -4,6 +4,7 @@ import Link from "next/link";
 
 export default function Login() {
   return (
+    <div className=" sm:ml-64 ">
     <div className="min-h-screen flex">
       {/* Left side: Image */}
       <div className="relative flex-1">
@@ -145,6 +146,7 @@ export default function Login() {
           </form>
         </div>
       </div>
+    </div>
     </div>
   );
 }
