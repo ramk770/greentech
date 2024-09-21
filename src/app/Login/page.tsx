@@ -17,8 +17,8 @@ export default function Login() {
       </div>
 
       {/* Right side: Login Form with gradient background */}
-      <div className="flex flex-1 items-center justify-center bg-gradient-to-r from-green-400 to-green-700 p-6">
-        <div className="bg-white bg-opacity-30 p-20 rounded-lg shadow-inner backdrop-blur-md animate-fade-in">
+      <div className="flex flex-1 items-center justify-center bg-gradient-to-r from-green-100 to-green-800 p-6 ">
+        <div className=" p-20 rounded-lg shadow-inner backdrop-blur-md animate-fade-in backdrop-blur-6xl bg-white/10">
           <h2 className="text-3xl font-bold mb-6 text-center">Login</h2>
           <form>
             {/* Username */}
